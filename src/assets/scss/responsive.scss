@@ -1,0 +1,304 @@
+/******* Medium Small Device >= 568px ***********/
+@media screen and (min-width:35.5rem) and (max-width:63rem) and (orientation:landscape){
+
+    #inicio{
+
+        .titulo{
+        }
+
+        .cont_video{
+            width: 60% !important;
+            height: 60vh !important;
+            margin-bottom: 0%;
+        }
+
+        .cont_elementos{
+            width: 35% !important;
+            margin: 0 auto;
+
+            .textos{
+
+            }
+        }
+    }
+
+    #sesiones{
+
+        .cont_video{
+            height: 45vh !important;
+
+            .cont_elementos{
+
+                .cont_imagen{
+                    width: 35% !important;
+                }
+            }        
+        }
+
+        .cont_video_seccion{
+            width: 100%;
+
+            .cont_elementos{
+
+                .titulo, .textos{
+                }
+            } 
+        }
+    } 
+
+    #info{
+
+        .cont_elementos{
+
+            .icono{
+                font-size: 3rem;
+            }
+        }
+
+        .vueperslides--fixed-height{
+            height: 260px !important;
+        }
+    }
+    
+  
+}
+
+
+/* IPAD 768px*/
+@media only screen and (min-width:48rem) and (orientation:portrait){
+
+    #inicio{
+
+        .cont_titulo{
+
+            .titulo{
+                width: 60% !important;
+            }
+        }
+
+        .cont_video{
+            width: 60% !important;
+        }
+
+        .cont_elementos{
+            width: 35% !important;
+            margin: 0 auto;
+
+            .textos{
+
+            }
+        }
+    }
+
+    #sesiones{
+
+        .cont_video{
+            height: 25vh !important;
+
+            .cont_elementos{
+
+                .cont_imagen{
+                    width: 35% !important;
+                }
+            }        
+        }
+
+        .cont_video_seccion{
+            width: 100%;
+
+            .cont_elementos{
+                
+                .titulo, .textos{
+                    width: 50% !important;
+                }
+
+                .boton{
+                   
+                }
+            } 
+        }
+    } 
+ 
+}
+
+/* Normal Desktop >= 1024px*/
+@media only screen and (min-width:64rem) and  (orientation:landscape){
+
+    #inicio{
+
+        .cont_titulo{
+
+            .titulo{
+                width: 60% !important;
+            }
+        }
+
+        .cont_video{
+            width: 60% !important;
+            height: 40vh !important;
+        }
+
+        .cont_elementos{
+            width: 35% !important;
+            margin: 0 auto;
+
+            .textos{
+
+            }
+        }
+    }
+
+    #sesiones{
+
+        .cont_video{
+            height: 30vh !important;
+
+            .cont_elementos{
+
+                .cont_imagen{
+                }
+            }        
+        }
+
+        .cont_video_seccion{
+
+            .cont_elementos{
+                
+                .titulo, .textos{
+                    width: 50% !important;
+                }
+
+                .boton{
+                   
+                }
+            } 
+        }
+    }
+    
+    #info{
+
+        .vueperslides--fixed-height{
+            height: 300px !important;
+        }
+    }
+
+}
+
+/* Ipad Pro Vertical */
+@media only screen and (min-width:64rem) and  (orientation:portrait){
+
+    #inicio{
+
+        .cont_video{
+            height: 25vh !important;
+        }
+    }
+
+    #sesiones{
+
+        .cont_video{
+            height: 15vh !important;
+                  
+        }
+
+        .cont_video_seccion{
+
+            .cont_elementos{
+                
+                .titulo, .textos{
+                    width: 50% !important;
+                }
+            } 
+        }
+    }
+
+    #info{
+
+        .vueperslides--fixed-height{
+            height: 300px !important;
+        }
+    }
+
+
+}
+
+/*Medium Small Desktop >= 1333px*/
+@media only screen and (min-width: 83rem){
+
+    #inicio{
+
+        .cont_titulo{
+
+            .titulo{
+                width: 40% !important;
+            }
+        }
+    }
+
+    #sesiones{
+
+        .cont_video{
+          
+                  
+        }
+
+        .cont_video_seccion{
+
+            height: 60vh !important;
+
+            .cont_elementos{
+                
+                .titulo, .textos{
+                    width: 50% !important;
+                }
+            } 
+        }
+    }
+
+    #footer{
+
+        .cont_imagen{
+            width: 40% !important;
+        }
+    }
+   
+
+
+}
+
+/*Medium Small Desktop >= 1440px*/
+@media only screen and (min-width:90rem){
+
+    #footer{
+
+        .cont_imagen{
+            width: 30% !important;
+        }
+    }
+
+
+
+}
+
+/* Super Large Desktop > 1720 */
+@media only screen and (min-width:108rem){
+
+   
+
+}
+
+@media only screen and (min-width:120rem){
+
+   
+     
+
+        .vueperslides--fixed-height:nth-child(2){
+            height: 150px !important;
+        }
+}
+
+@media only screen and (min-width:160rem){
+
+    
+
+}

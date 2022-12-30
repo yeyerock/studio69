@@ -1,22 +1,31 @@
 <template>
     <section id="inicio">
         <v-container>
-            <h1 class="titulo text-right">
-                Espacio y tiempo de liberación.
-                No solo sexual, si no integral.
-            </h1>
-                
-            <v-card class="cont_video">
-                <video src="../assets/videos/general_web.mp4" playsinline autoplay muted loop></video>
-            </v-card>
+            <div class="cont_titulo d-flex justify-end w-100">
+                <h1 class="titulo text-right mb-5">
+                    Espacio y tiempo de liberación.
+                    No solo sexual, sino integral.
+                </h1>
+            </div>
+            
 
-            <v-card class="cont_elementos"
-                elevation="0"
-            >
-                <v-card-text class="textos">
-                    Vive una experiencia única a través de sesiones liberadoras y meditativas, para poder expandir tu ser físico, mental y sexual, sin tabúes, prejuicios o presiones. 
-                </v-card-text>
-            </v-card>
+            <div class="d-flex flex-column flex-sm-row justify-sm-center align-sm-center">
+                <v-card class="cont_video d-flex justify-center align-center">
+                    <video src="../assets/videos/general_web.mp4" playsinline autoplay muted loop></video>
+                </v-card>
+    
+                <v-card class="cont_elementos"
+                    elevation="0"
+                >
+                    <v-container class="text-justify">
+                        <p class="textos">
+                            Vive una experiencia única a través de sesiones liberadoras y meditativas, para poder expandir tu ser físico, mental y sexual, sin tabúes, prejuicios o presiones. 
+                        </p>
+                    </v-container>                   
+                </v-card>
+            </div>
+                
+            
         </v-container>      
     </section>
 </template>
@@ -27,6 +36,7 @@
 
         .titulo{
             font-size: 2rem;
+            writing-mode: rl-bt;
         }
 
         .cont_video{
@@ -34,6 +44,8 @@
             height: 30vh;
             overflow: hidden;
             margin-bottom: 5%;
+            background: none;
+            box-shadow: none;
 
             video{
                 width: 100%;
@@ -43,6 +55,7 @@
         }
 
         .cont_elementos{
+            width: 100%;
             background: var(--azul-oscuro);
 
             .textos{
