@@ -1,6 +1,19 @@
 /******* Medium Small Device >= 568px ***********/
 @media screen and (min-width:35.5rem) and (max-width:63rem) and (orientation:landscape){
 
+    #intro{
+
+        .cont_video{
+            
+            .cont_elementos{
+
+                .cont_imagen{
+                    width: 30% !important;
+                }
+            }        
+        }
+    }   
+
     #inicio{
 
         .titulo{
@@ -67,6 +80,19 @@
 /* IPAD 768px*/
 @media only screen and (min-width:48rem) and (orientation:portrait){
 
+    #intro{
+
+        .cont_video{
+            
+            .cont_elementos{
+
+                .cont_imagen{
+                    width: 40% !important;
+                }
+            }        
+        }
+    }
+
     #inicio{
 
         .cont_titulo{
@@ -123,6 +149,19 @@
 
 /* Normal Desktop >= 1024px*/
 @media only screen and (min-width:64rem) and  (orientation:landscape){
+
+    #intro{
+
+        .cont_video{
+            
+            .cont_elementos{
+
+                .cont_imagen{
+                    width: 30% !important;
+                }
+            }        
+        }
+    }
 
     #inicio{
 
