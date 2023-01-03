@@ -36,7 +36,7 @@
 
     width: 100%;
     height: 100%;
-    background: var(--azul-hueso);
+    background: var(--azul-blanco);
 
     .fondo_transparente{
       background: var(--transparente-oscuro);
@@ -82,8 +82,7 @@
       color: var(--azul-hueso) !important;
     }
 
-
-  }
+   }
 
 
 </style>

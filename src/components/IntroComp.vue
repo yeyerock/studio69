@@ -1,7 +1,7 @@
 <template>
     <section id="intro"> 
         <div class="cont_video">
-            <video src="../assets/videos/general_web.mp4" playsinline autoplay muted loop></video>
+            <video src="../assets/videos/hero_vertical.mp4" playsinline autoplay muted loop></video>
         
             <v-container class="cont_elementos d-flex flex-column justify-center align-center">
                 <div class="cont_imagen">

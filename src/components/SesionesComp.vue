@@ -29,13 +29,14 @@
 
                 <v-col 
                     cols="12" 
+                    class="order-md-last"
                     v-if="relax"
                 >
                     <!-- <v-container  fluid> -->
                         <v-card class="cont_video_seccion">
                             <video src="../assets/videos/tantrico_relax_1.mp4"  playsinline autoplay muted loop></video>
                             
-                            <v-container class="cont_elementos text-justify d-flex flex-column justity-center align-start pa-lg-12">
+                            <v-container class="cont_elementos text-justify d-flex flex-column justity-center align-start pa-5 pa-lg-12">
                                 <h1 class="titulo">Tántrico Relax</h1>
     
                                 <p class="textos">
@@ -83,6 +84,7 @@
 
                 <v-col 
                     cols="12" 
+                    class="order-md-last"
                     v-if="erotico"
                 >
                     <!-- <v-container  fluid> -->
@@ -90,7 +92,7 @@
                             <video src="../assets/videos/tantrico_ero_1.mp4"  playsinline autoplay muted loop></video>
                             
 
-                            <v-container class="cont_elementos text-justify d-flex flex-column justity-center align-start pa-lg-12">
+                            <v-container class="cont_elementos text-justify d-flex flex-column justity-center align-start pa-5 pa-lg-12">
                                 <h1 class="titulo">Tántrico Erótico</h1>
 
                                 <p class="textos">
@@ -133,12 +135,13 @@
 
                 <v-col
                     cols="12"
+                    class="order-md-last"
                     v-if="sensorial"
                 >
                     <v-card class="cont_video_seccion">
                         <video src="../assets/videos/sensorial_1.mp4"  playsinline autoplay muted loop></video>
                         
-                        <v-container class="cont_elementos text-justify d-flex flex-column justity-center align-start pa-lg-12">
+                        <v-container class="cont_elementos text-justify d-flex flex-column justity-center align-start pa-5 pa-lg-12">
                             <h1 class="titulo">Tántrico Sensorial</h1>
 
                             <p class="textos">
@@ -184,12 +187,13 @@
 
                 <v-col
                     cols="12"
+                    class="order-md-last"
                     v-if="pada"
                 >
                     <v-card class="cont_video_seccion">
                         <video src="../assets/videos/foot_1.mp4"  playsinline autoplay muted loop></video>                        
 
-                        <v-container class="cont_elementos text-justify d-flex flex-column justity-center align-start pa-lg-12">
+                        <v-container class="cont_elementos text-justify d-flex flex-column justity-center align-start pa-5 pa-lg-12">
                             <h1 class="titulo">Abhyanga Pada</h1>
 
                             <p class="textos">
@@ -234,12 +238,13 @@
 
                 <v-col
                     cols="12"
+                    class="order-md-last"
                     v-if="bdsm"
                 >
                 <v-card class="cont_video_seccion">
                     <video src="../assets/videos/bdsm_2.mp4"  playsinline autoplay muted loop></video>                        
 
-                    <v-container class="cont_elementos text-justify d-flex flex-column justity-center align-start pa-lg-12">
+                    <v-container class="cont_elementos text-justify d-flex flex-column justity-center align-start pa-5 pa-lg-12">
                         <h1 class="titulo">BDSM</h1>
 
                         <p class="textos">
@@ -286,8 +291,7 @@
                 left: 0;
                 position: absolute;
                 object-fit: cover;
-                -o-filter: blur(15px);
-                filter: blur(15px);
+              
                 transform: scale(1.1);
             }
 
@@ -330,9 +334,9 @@
 
             .cont_elementos{
                 width: 100%;
-                height: 100%;
+                height: 85vh;
                 position: relative;
-                background: var(--transparente-oscuro);
+               
 
                 .titulo, .textos{
                     color: var(--azul-hueso);

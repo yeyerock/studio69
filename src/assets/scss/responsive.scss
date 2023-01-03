@@ -14,26 +14,26 @@
         }
     }   
 
-    #inicio{
+    // #inicio{
 
-        .titulo{
-        }
+    //     .titulo{
+    //     }
 
-        .cont_video{
-            width: 60% !important;
-            height: 60vh !important;
-            margin-bottom: 0%;
-        }
+    //     .cont_video{
+    //         width: 60% !important;
+    //         height: 60vh !important;
+    //         margin-bottom: 0%;
+    //     }
 
-        .cont_elementos{
-            width: 35% !important;
-            margin: 0 auto;
+    //     .cont_elementos{
+    //         width: 35% !important;
+    //         margin: 0 auto;
 
-            .textos{
+    //         .textos{
 
-            }
-        }
-    }
+    //         }
+    //     }
+    // }
 
     #sesiones{
 
@@ -72,6 +72,8 @@
             height: 260px !important;
         }
     }
+
+    
     
   
 }
@@ -93,28 +95,28 @@
         }
     }
 
-    #inicio{
+    // #inicio{
 
-        .cont_titulo{
+    //     .cont_titulo{
 
-            .titulo{
-                width: 60% !important;
-            }
-        }
+    //         .titulo{
+    //             width: 60% !important;
+    //         }
+    //     }
 
-        .cont_video{
-            width: 60% !important;
-        }
+    //     .cont_video{
+    //         width: 60% !important;
+    //     }
 
-        .cont_elementos{
-            width: 35% !important;
-            margin: 0 auto;
+    //     .cont_elementos{
+    //         width: 35% !important;
+    //         margin: 0 auto;
 
-            .textos{
+    //         .textos{
 
-            }
-        }
-    }
+    //         }
+    //     }
+    // }
 
     #sesiones{
 
@@ -163,29 +165,29 @@
         }
     }
 
-    #inicio{
+    // #inicio{
 
-        .cont_titulo{
+    //     .cont_titulo{
 
-            .titulo{
-                width: 60% !important;
-            }
-        }
+    //         .titulo{
+    //             width: 60% !important;
+    //         }
+    //     }
 
-        .cont_video{
-            width: 60% !important;
-            height: 40vh !important;
-        }
+    //     .cont_video{
+    //         width: 60% !important;
+    //         height: 40vh !important;
+    //     }
 
-        .cont_elementos{
-            width: 35% !important;
-            margin: 0 auto;
+    //     .cont_elementos{
+    //         width: 35% !important;
+    //         margin: 0 auto;
 
-            .textos{
+    //         .textos{
 
-            }
-        }
-    }
+    //         }
+    //     }
+    // }
 
     #sesiones{
 
@@ -226,12 +228,12 @@
 /* Ipad Pro Vertical */
 @media only screen and (min-width:64rem) and  (orientation:portrait){
 
-    #inicio{
+    // #inicio{
 
-        .cont_video{
-            height: 25vh !important;
-        }
-    }
+    //     .cont_video{
+    //         height: 25vh !important;
+    //     }
+    // }
 
     #sesiones{
 
@@ -264,15 +266,20 @@
 /*Medium Small Desktop >= 1333px*/
 @media only screen and (min-width: 83rem){
 
-    #inicio{
-
-        .cont_titulo{
-
-            .titulo{
-                width: 40% !important;
-            }
-        }
+    .navbar .logo .logo_menu{
+        width: 8rem !important;
     }
+      
+
+    // #inicio{
+
+    //     .cont_titulo{
+
+    //         .titulo{
+    //             width: 40% !important;
+    //         }
+    //     }
+    // }
 
     #sesiones{
 
@@ -282,8 +289,8 @@
         }
 
         .cont_video_seccion{
-
-            height: 60vh !important;
+            width: 100vw !important;
+            height: 80vh !important;
 
             .cont_elementos{
                 

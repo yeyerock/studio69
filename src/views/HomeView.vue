@@ -1,23 +1,6 @@
 <template>
- 
-
-  <div class="home">
-    <v-app-bar 
-      app
-      inverted-scroll>
-      
-
-      <v-toolbar-title>Studio 69</v-toolbar-title>
-
-      <v-spacer></v-spacer>
-
-      <v-spacer></v-spacer>
-      
-      <v-app-bar-nav-icon></v-app-bar-nav-icon>
-
-     
-    </v-app-bar>
-
+  <div id="home">
+    <Menu-comp/>
     <Hero-comp/>
     <Inicio-comp/>
     <Sesiones-comp/>
@@ -27,6 +10,7 @@
 </template>
 
 <script>
+import MenuComp from '@/components/MenuComp.vue'
 import HeroComp from '@/components/HeroComp.vue'
 import InicioComp from '@/components/InicioComp.vue'
 import SesionesComp from '@/components/SesionesComp.vue'
@@ -36,7 +20,13 @@ import FooterComp from '@/components/FooterComp.vue'
 export default {
   name: 'HomeView',
   components: {
-    HeroComp, InicioComp, SesionesComp, InfoComp, FooterComp
+    MenuComp, HeroComp, InicioComp, SesionesComp, InfoComp, FooterComp
   }
 }
 </script>
+
+<style>
+  #home{
+    background: var(--azul-hueso);
+  }
+</style>
