@@ -73,6 +73,19 @@
         }
     }
 
+    #laura{
+
+        .cont_superior{
+            padding-top: 80px;
+        }
+
+        .cont_inferior{
+            width: 80%;
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+        }       
+    }
+
     
     
   
@@ -145,7 +158,22 @@
                 }
             } 
         }
-    } 
+    }
+
+    #laura{
+
+        .cont_superior{
+            padding-top: 80px;
+        }
+
+        .cont_inferior{
+            width: 80%;
+
+            .cont_img:nth-child(3) img{
+                rotate: 0deg !important;
+            }
+        }       
+    }  
  
 }
 
@@ -223,6 +251,21 @@
         }
     }
 
+    #laura{
+
+        .cont_superior{
+            width: 75%;
+        }
+
+        .cont_inferior{
+            width: 75%;
+
+            .cont_img:nth-child(3) img{
+                rotate: 0deg !important;
+            }
+        }       
+    }  
+
 }
 
 /* Ipad Pro Vertical */
@@ -260,6 +303,16 @@
         }
     }
 
+    #laura{
+
+        .cont_superior{
+            width: 60%;
+        }
+
+        .cont_inferior{
+            width: 70%;
+        }       
+    }  
 
 }
 
@@ -284,8 +337,7 @@
     #sesiones{
 
         .cont_video{
-          
-                  
+                            
         }
 
         .cont_video_seccion{
@@ -308,7 +360,25 @@
         }
     }
    
+    #laura{
 
+        .cont_superior{
+            width: 60%;
+            padding-bottom: 200px ;
+        }
+
+        .cont_inferior{
+            width: 70%;
+            margin-top: -15%;
+
+            .cont_img{
+
+                img{
+                    width: 70% !important;
+                }
+            }
+        }       
+    }  
 
 }
 
@@ -322,6 +392,24 @@
         }
     }
 
+    #laura{
+
+        .cont_superior{
+            padding-bottom: 150px ;
+        }
+
+        .cont_inferior{
+            margin-top: -5%;
+
+            .cont_img{
+
+                img{
+                    width: 60% !important;
+                }
+            }
+        }       
+    } 
+
 
 
 }
@@ -329,18 +417,18 @@
 /* Super Large Desktop > 1720 */
 @media only screen and (min-width:108rem){
 
-   
+    .vueperslides--fixed-height{
+        height: 150px !important;
+    }
 
 }
 
 @media only screen and (min-width:120rem){
 
    
-     
-
-        .vueperslides--fixed-height:nth-child(2){
-            height: 150px !important;
-        }
+    .vueperslides--fixed-height{
+        height: 200px !important;
+    }
 }
 
 @media only screen and (min-width:160rem){

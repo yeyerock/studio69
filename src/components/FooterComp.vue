@@ -5,7 +5,7 @@
                 <v-col 
                     cols="12"
                     sm="6" 
-                    class="mx-auto"
+                    class="mx-auto  d-flex justify-center align-center"
                 >
                     <div class="cont_imagen mx-auto">
                         <img src="../assets/internal/logo_5.png" alt="">
