@@ -3,6 +3,7 @@ import App from './App.vue'
 import './assets/scss/responsive.scss'
 import vuetify from './plugins/vuetify'
 import router from './router'
+import './assets/js/script'
 
 Vue.config.productionTip = false
 

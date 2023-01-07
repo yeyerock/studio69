@@ -33,7 +33,6 @@
             <v-row class="justify-end">
                 <v-col
                     cols="12"
-                    sm="9"
                     class=""
                 >
                     <p class="textos text-justify">
@@ -50,7 +49,7 @@
                     sm="5"
                     md="5"
                     lg="6"
-                    class="mx-auto cont_img "
+                    class="mx-auto cont_img reveal fade-right"
                 >
                 <div class="mx-auto d-flex justify-center">
                     <img  src="../assets/laura/lau_03.jpg" alt=""/>
@@ -62,7 +61,7 @@
                     sm="5"
                     md="5"
                     lg="6"
-                    class="mx-auto cont_img"
+                    class="mx-auto cont_img reveal fade-left"
                 >
                 <div class="mx-auto d-flex justify-center">
                     <img  src="../assets/laura/lau_02.jpg" /> 
@@ -74,7 +73,7 @@
                     sm="5"
                     md="5"
                     lg="6"
-                    class="mx-auto cont_img"
+                    class="mx-auto cont_img reveal fade-right"
                 >
                 <div class="mx-auto d-flex justify-center">
                     <img  src="../assets/laura/lau_01.jpg" />  
@@ -123,7 +122,8 @@
             .cont_img:nth-child(3) img{
                 rotate: -15deg;
             }
-        }       
+        }            
+        
     }
 </style>
 

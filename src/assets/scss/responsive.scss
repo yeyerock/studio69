@@ -14,26 +14,40 @@
         }
     }   
 
-    // #inicio{
+    #hero{
 
-    //     .titulo{
-    //     }
+        .cont_video{
+           
+            .hero_vertical{
+                display: none;
+            }
 
-    //     .cont_video{
-    //         width: 60% !important;
-    //         height: 60vh !important;
-    //         margin-bottom: 0%;
-    //     }
+            .hero_horizontal{
+                display: flex !important;
+            }
+        }     
+    } 
 
-    //     .cont_elementos{
-    //         width: 35% !important;
-    //         margin: 0 auto;
+    #inicio{
 
-    //         .textos{
+        .cont_titulo{
+            width: 60%;
+        }
 
-    //         }
-    //     }
-    // }
+        .contenedor{
+            width: 100%;
+    
+            .cont_video{
+                width: 65% !important;
+            }
+    
+            .cont_elementos{
+                width: 50% !important;
+                margin-top: -20% !important;  
+                padding-left: 20% !important;          
+            }
+        }
+    }
 
     #sesiones{
 
@@ -50,12 +64,6 @@
 
         .cont_video_seccion{
             width: 100%;
-
-            .cont_elementos{
-
-                .titulo, .textos{
-                }
-            } 
         }
     } 
 
@@ -77,6 +85,8 @@
 
         .cont_superior{
             padding-top: 80px;
+            padding-left: 80px !important;
+            padding-right: 80px !important;
         }
 
         .cont_inferior{
@@ -95,6 +105,20 @@
 /* IPAD 768px*/
 @media only screen and (min-width:48rem) and (orientation:portrait){
 
+    #hero{
+
+        .cont_video{
+           
+            .hero_vertical{
+                display: none;
+            }
+
+            .hero_horizontal{
+                display: flex !important;
+            }
+        }     
+    } 
+    
     #intro{
 
         .cont_video{
@@ -108,28 +132,26 @@
         }
     }
 
-    // #inicio{
+    #inicio{
 
-    //     .cont_titulo{
+        .cont_titulo{
+            width: 60%;
+        }
 
-    //         .titulo{
-    //             width: 60% !important;
-    //         }
-    //     }
-
-    //     .cont_video{
-    //         width: 60% !important;
-    //     }
-
-    //     .cont_elementos{
-    //         width: 35% !important;
-    //         margin: 0 auto;
-
-    //         .textos{
-
-    //         }
-    //     }
-    // }
+        .contenedor{
+            width: 100%;
+    
+            .cont_video{
+                width: 65% !important;
+            }
+    
+            .cont_elementos{
+                width: 50% !important;
+                margin-top: -25% !important;  
+                padding-left: 18% !important;          
+            }
+        }
+    }
 
     #sesiones{
 
@@ -152,10 +174,6 @@
                 .titulo, .textos{
                     width: 50% !important;
                 }
-
-                .boton{
-                   
-                }
             } 
         }
     }
@@ -163,7 +181,9 @@
     #laura{
 
         .cont_superior{
-            padding-top: 80px;
+            padding-top: 80px;            
+            padding-left: 10% !important;
+            padding-right: 10% !important;
         }
 
         .cont_inferior{
@@ -180,6 +200,20 @@
 /* Normal Desktop >= 1024px*/
 @media only screen and (min-width:64rem) and  (orientation:landscape){
 
+    #hero{
+
+        .cont_video{
+           
+            .hero_vertical{
+                display: none;
+            }
+
+            .hero_horizontal{
+                display: flex !important;
+            }
+        }     
+    } 
+    
     #intro{
 
         .cont_video{
@@ -193,40 +227,31 @@
         }
     }
 
-    // #inicio{
+    #inicio{
 
-    //     .cont_titulo{
+        .cont_titulo{
+            width: 60%;
+        }
 
-    //         .titulo{
-    //             width: 60% !important;
-    //         }
-    //     }
-
-    //     .cont_video{
-    //         width: 60% !important;
-    //         height: 40vh !important;
-    //     }
-
-    //     .cont_elementos{
-    //         width: 35% !important;
-    //         margin: 0 auto;
-
-    //         .textos{
-
-    //         }
-    //     }
-    // }
+        .contenedor{
+            width: 100%;
+    
+            .cont_video{
+                width: 65% !important;
+            }
+    
+            .cont_elementos{
+                width: 50% !important;
+                margin-top: -20% !important;  
+                padding-left: 18% !important;          
+            }
+        }
+    }
 
     #sesiones{
 
         .cont_video{
-            height: 30vh !important;
-
-            .cont_elementos{
-
-                .cont_imagen{
-                }
-            }        
+            height: 30vh !important;      
         }
 
         .cont_video_seccion{
@@ -235,10 +260,6 @@
                 
                 .titulo, .textos{
                     width: 50% !important;
-                }
-
-                .boton{
-                   
                 }
             } 
         }
@@ -254,7 +275,9 @@
     #laura{
 
         .cont_superior{
-            width: 75%;
+            width: 75%;            
+            padding-left: 10% !important;
+            padding-right: 10% !important;
         }
 
         .cont_inferior{
@@ -271,18 +294,11 @@
 /* Ipad Pro Vertical */
 @media only screen and (min-width:64rem) and  (orientation:portrait){
 
-    // #inicio{
-
-    //     .cont_video{
-    //         height: 25vh !important;
-    //     }
-    // }
 
     #sesiones{
 
         .cont_video{
-            height: 15vh !important;
-                  
+            height: 15vh !important;                  
         }
 
         .cont_video_seccion{
@@ -293,6 +309,16 @@
                     width: 50% !important;
                 }
             } 
+        }
+    }
+
+    #inicio{
+
+        .contenedor{           
+    
+            .cont_elementos{
+                margin-top: -20% !important;        
+            }
         }
     }
 
@@ -319,26 +345,42 @@
 /*Medium Small Desktop >= 1333px*/
 @media only screen and (min-width: 83rem){
 
+    .titulo{
+        font-size: 2.5rem !important;
+    }
+
+    .textos{
+        font-size: 1.2rem;
+    }
+
     .navbar .logo .logo_menu{
         width: 8rem !important;
     }
       
 
-    // #inicio{
+    #inicio{
 
-    //     .cont_titulo{
+        .cont_titulo{
+            width: 40%;
+        }
 
-    //         .titulo{
-    //             width: 40% !important;
-    //         }
-    //     }
-    // }
+        .contenedor{
+    
+            .cont_video{
+                width: 60% !important;
+            }
+    
+            .cont_elementos{
+                width: 45% !important;
+                margin-top: -5% !important;  
+                margin-right: 7% !important;
+                padding-top: 7% !important;          
+                padding-left: 32px !important; 
+            }
+        }
+    }
 
     #sesiones{
-
-        .cont_video{
-                            
-        }
 
         .cont_video_seccion{
             width: 100vw !important;
@@ -389,6 +431,22 @@
 
         .cont_imagen{
             width: 30% !important;
+        }
+    }
+
+    #inicio{
+
+        .contenedor{
+    
+            .cont_video{
+                width: 50% !important;
+            }
+    
+            .cont_elementos{   
+                width: 30% !important;
+                margin-right: 15% !important;
+                padding-top: 6% !important;         
+            }
         }
     }
 
