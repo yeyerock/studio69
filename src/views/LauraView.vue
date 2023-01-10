@@ -12,9 +12,9 @@
                 <li v-on:click="cerrar()" class=" mx-3"><router-link class="enlace " to="/laura">Conoce a Laura</router-link> </li>
             
                 <div class="cont_redes d-flex justify-content-center mx-auto">
-                    <div class=" mx-2 "><a class="enlace"  href="https://instagram.com" ><v-icon class="icono">mdi-instagram</v-icon></a></div>
-                    <div class=" mx-2 "><a class="enlace"   href="https://facebook.com"><v-icon class="icono">mdi-facebook</v-icon></a></div>
-                    <div class=" mx-2 "><a class="enlace"   href="https://api.whatsapp.com/send?phone=5214425772540&text=Hola%20necesito%20información%20sobre%20los%20masajes%20!" target="_blank"><v-icon class="icono">mdi-whatsapp</v-icon></a></div>
+                    <div class=" mx-2 "><a class="enlace" target="_blank" href="https://www.instagram.com/studio.tantrico/" ><v-icon class="icono">mdi-instagram</v-icon></a></div>
+                    <div class=" mx-2 "><a class="enlace"  target="_blank" href="https://twitter.com/LauMasajista"><v-icon class="icono">mdi-twitter</v-icon></a></div>
+                    <div class=" mx-2 "><a class="enlace" target="_blank"  href="https://api.whatsapp.com/send?phone=5214426802582&text=Hola%20necesito%20información%20sobre%20los%20masajes%20!"><v-icon class="icono">mdi-whatsapp</v-icon></a></div>
                 </div>
             </ul>
 

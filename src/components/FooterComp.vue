@@ -21,17 +21,17 @@
                     </div>
                     <div class="cont_iconos d-flex justify-center align-center">
                         <div class="ma-3">
-                            <a class="enlace" target="_blank" href="https://instagram.com/studio69">
+                            <a class="enlace" target="_blank" href="https://www.instagram.com/studio.tantrico/">
                                 <v-icon class="icono">mdi-instagram</v-icon>
                             </a>
                         </div>
                         <div class="ma-3">
-                            <a class="enlace" target="_blank" href="http://">
+                            <a class="enlace" target="_blank" href="https://twitter.com/LauMasajista">
                                 <v-icon class="icono">mdi-twitter</v-icon>
                             </a>
                         </div>
                         <div class="ma-3">
-                            <a class="enlace" target="_blank" href="http://">
+                            <a class="enlace" target="_blank" href="https://api.whatsapp.com/send?phone=5214426802582&text=Hola%20necesito%20información%20sobre%20los%20masajes%20!">
                                 <v-icon class="icono">mdi-whatsapp</v-icon>
                             </a>
                         </div>
