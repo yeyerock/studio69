@@ -3,16 +3,14 @@
         <v-container class="d-flex flex-column">
             <div class="cont_titulo align-self-end">
                 <h1 class="titulo text-right mb-5">
-                    <span class="mr-4">Espacio </span>
-                    <span class="mr-4">y </span>
-                    <span class="mr-4">tiempo </span>
-                    <span class="mr-4">de </span>
-                    <span class="mr-4">liberación.</span>
-                    <span class="mr-4">No </span>
-                    <span class="mr-4">solo </span>
-                    <span class="mr-4">sexual, </span>
-                    <span class="mr-4">sino </span>
-                    <span class="mr-4">integral.</span>
+                    <span class="mr-4">Un </span>
+                    <span class="mr-4">espacio </span>
+                    <span class="mr-4">para </span>
+                    <span class="mr-4">conectar </span>
+                    <span class="mr-4">y</span>
+                    <span class="mr-4">liberar </span>
+                    <span class="mr-4">tu </span>
+                    <span class="mr-4">ser. </span>
                 </h1>
             </div>
 
@@ -21,7 +19,7 @@
                     <video class=""  playsinline autoplay loop muted src="../assets/videos/general_web.mp4"></video>
                 </div>
                 <div class="cont_elementos align-self-end pa-8 reveal fade-left">
-                    <p class="textos">Vive una experiencia única a través de sesiones liberadoras y meditativas, para poder expandir tu ser físico, mental y sexual, sin tabúes, prejuicios o presiones. </p>
+                    <p class="textos">Vive una experiencia única a través de sesiones liberadoras y meditativas, para poder expandir tu ser físico, mental y sexual, sin tabúes y prejuicios. </p>
                 </div>
            </div>
         </v-container>    
@@ -89,15 +87,7 @@
     
                 span:nth-child(8) {
                     animation: fade-in 0.8s 0.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
-                }
-    
-                span:nth-child(9) {
-                    animation: fade-in 0.8s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
-                }
-    
-                span:nth-child(10) {
-                    animation: fade-in 0.8s 1s forwards cubic-bezier(0.11, 0, 0.5, 0);
-                }                           
+                }                         
             }
         }
         

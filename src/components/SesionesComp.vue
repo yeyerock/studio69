@@ -10,14 +10,14 @@
                 <v-col 
                     cols="12"
                     sm="4"
-                    md="2"
+                    md="auto"
                     
                 >
                     <v-card class="cont_video">
                         <video src="../assets/videos/relax_web.mp4"  playsinline autoplay muted loop></video>
                         
-                        <div class="cont_elementos d-flex flex-column justify-center align-center" @click="toggleRelax">
-                            <div class="cont_imagen">
+                        <div class="cont_elementos d-flex flex-column justify-center align-center pa-3 pa-sm-5" @click="toggleRelax">
+                            <div class="cont_imagen d-flex justify-center align-center">
                                 <img src="../assets/sesiones/tantrico.svg" alt="">
                             </div>
                             <p class="enlace text-center">
@@ -37,21 +37,23 @@
                             <video src="../assets/videos/tantrico_relax_1.mp4"  playsinline autoplay muted loop></video>
                             
                             <v-container class="cont_elementos text-justify d-flex flex-column justity-center align-start pa-5 pa-lg-12">
-                                <h1 class="titulo">Tántrico Relax</h1>
-    
+                                <h1 class="titulo">Tántrico</h1>
+        
                                 <p class="textos">
-                                    Consta de un tiempo lineal, relajante físico, mental y sexual. Una sensación reconfortable y renovador energético. 
-                                </p>
-    
-                                <p class="textos">
-                                    Es un masaje relajante de cuerpo completo, ejerciendo presión suave y lento fusionado con mi técnica tántrica  que es un masaje muy sutil y energético.
+                                    Tendrás un tiempo meditativo y energético,
+                                    conectarás tu mente con tu cuerpo mediante un
+                                    masaje relajante fusionado con mi técnica
+                                    tántrica, apoyándome de instrumentos de
+                                    armonización, respiraciones profundas y
+                                    acompañada de posturas tántricas para lograr
+                                    equilibrar tu energía kundalini.
                                 </p>
     
                                 <v-btn 
                                     dark
                                     class="boton enlace"
                                 >
-                                <a class="enlace" href="http://">Agendar una cita</a>
+                                <a class="enlace" href="https://api.whatsapp.com/send?phone=5214426802582&text=Hola%20necesito%20información%20sobre%20sesión%20Tántrica!">Agendar una cita</a>
                                 </v-btn>
                             </v-container>
                         </v-card>
@@ -65,14 +67,14 @@
                 <v-col 
                     cols="6"    
                     sm="4"
-                    md="2"
+                    md="auto"
                         
                 >
                     <v-card class="cont_video">
                         <video src="../assets/videos/eros_web.mp4"  playsinline autoplay muted loop></video>
                         
-                        <div class="cont_elementos d-flex flex-column justify-center align-center" @click="toggleErotico">
-                            <div class="cont_imagen">
+                        <div class="cont_elementos d-flex flex-column justify-center align-center pa-3 pa-sm-5" @click="toggleErotico">
+                            <div class="cont_imagen d-flex justify-center align-center">
                                 <img src="../assets/sesiones/erotico.svg" alt="">
                             </div>
                             <p class="enlace text-center">
@@ -96,15 +98,20 @@
                                 <h1 class="titulo">Tántrico Erótico</h1>
 
                                 <p class="textos">
-                                    Esta sesión la aperturo con un masaje relajante que te guiará a un trance de relajación física y mental.
+                                    Una secuencia para lograr un estado evolutivo.
                                 </p>
 
                                 <p class="textos">
-                                    Ya en este modo estimularé tu piel con un masaje tántrico que es sutil y reconfortable para poderlo transmutar al masaje erótico, que es sensual y seductor encaminado al climax y de esa manera, si así lo deseas, materializar tu liberación.
+                                    Te guiaré a un trance de relajación físico y mental,
+                                    estimularé tu cuerpo con mi masaje tántrico que es
+                                    sutil y reconfortante para transmutar al masaje
+                                    erótico, que es sensual y seductor, integraré
+                                    partes de mi cuerpo, finalizando con un
+                                    estimulante masaje lingam.
                                 </p>
 
                                 <v-btn dark class="boton enlace">
-                                    <a class="enlace" href="http://">Agendar una cita</a>
+                                    <a class="enlace" href="https://api.whatsapp.com/send?phone=5214426802582&text=Hola%20necesito%20información%20sobre%20sesión%20Tántrico%20Erótico!">Agendar una cita</a>
                                 </v-btn>
                             </v-container>
                         </v-card>
@@ -116,14 +123,14 @@
                 <v-col 
                     cols="6"  
                     sm="4"
-                    md="2"
+                    md="auto"
                            
                 >
                     <v-card class="cont_video">
                         <video src="../assets/videos/senso_web.mp4"  playsinline autoplay muted loop></video>
                         
-                        <div class="cont_elementos d-flex flex-column justify-center align-center" @click="toggleSensorial">
-                            <div class="cont_imagen">
+                        <div class="cont_elementos d-flex flex-column justify-center align-center pa-3 pa-sm-5" @click="toggleSensorial">
+                            <div class="cont_imagen d-flex justify-center align-center">
                                 <img src="../assets/sesiones/sensorial.svg" alt="">
                             </div>
                             <p class="enlace text-center">
@@ -145,15 +152,19 @@
                             <h1 class="titulo">Tántrico Sensorial</h1>
 
                             <p class="textos">
-                                Conectar la estimulación de tus cinco sentidos, darles potencialidad y reconocerlos.                                
+                                Conectaré tus cinco sentidos a través de la estimulación de estos para potencializar y reconocerlos.
                             </p>
 
                             <p class="textos">
-                                Se enfoca en un estado de relajación mental y fisico, apoyándome con un mesaje relajante frontal y simultáneamente me estaré apoyando de elementos para la estimulación auditiva, visual, tacto, olfativa y por supuesto gustativa en un espacio sensual, seductor y si así lo deseas, materializar tu liberación. 
+                                Llegarás a un estado de relajación mental y físico, a
+                                través de un masaje relajante, integraré elementos para
+                                la estimulación auditiva, visual, tacto, olfativa y
+                                gustativa en un espacio sensual y seductor.
+ 
                             </p>
 
                             <v-btn dark class="boton enlace">
-                                <a class="enlace" href="http://">Agendar una cita</a>
+                                <a class="enlace" href="https://api.whatsapp.com/send?phone=5214426802582&text=Hola%20necesito%20información%20sobre%20sesión%20Tántrico%20Sensorial!">Agendar una cita</a>
                             </v-btn>
                         </v-container>
                     </v-card>
@@ -166,14 +177,14 @@
                 <v-col 
                     cols="6"        
                     sm="4"
-                    md="2"
+                    md="auto"
                     
                 >
                     <v-card class="cont_video">
                         <video src="../assets/videos/foot_web.mp4"  playsinline autoplay muted loop></video>
                         
-                        <div class="cont_elementos d-flex flex-column justify-center align-center" @click="togglePada">
-                            <div class="cont_imagen">
+                        <div class="cont_elementos d-flex flex-column justify-center align-center pa-3 pa-sm-5" @click="togglePada">
+                            <div class="cont_imagen d-flex justify-center align-center">
                                 <img src="../assets/sesiones/pada.svg" alt="">
                             </div>
                             
@@ -197,18 +208,22 @@
                             <h1 class="titulo">Abhyanga Pada</h1>
 
                             <p class="textos">
-                                Un masaje relajante y estimulante con mis pies acompañados de aceites corporales cálidos para poder abrir poros y penetren los aceites medicinales.
+                                Te liberaré de la tensión corporal ejerciendo presión con mis pies.
                             </p>
 
                             <p class="textos">
-                                Ejerciendo presión en todo tu cuerpo incluyendo el área genital con un suave masaje con mis pies, es un espacio sensual y cálido, si tienes deseo de adorar mis pies puedes hacerlo y materializar tu liberación. 
+                                Un masaje relajante y estimulante con mis pies
+                                acompañados de aceites cálidos y medicinales, ejerceré
+                                presión en todo tu cuerpo incluyendo el área genital con
+                                un suave masaje con mis pies, estarás en un espacio
+                                sensual y cálido.
                             </p>
 
                             <v-btn 
                                 dark 
                                 medium
                                 class="boton enlace">
-                                <a class="enlace" href="http://">Agendar una cita</a>
+                                <a class="enlace" href="https://api.whatsapp.com/send?phone=5214426802582&text=Hola%20necesito%20información%20sobre%20sesión%20Abhyanga%20Pada!">Agendar una cita</a>
                             </v-btn>
                         </v-container>
                     </v-card>
@@ -219,14 +234,14 @@
                 <v-col 
                     cols="6"
                     sm="4"
-                    md="2"
+                    md="auto"
                            
                 >
                     <v-card class="cont_video">
                         <video src="../assets/videos/bdsm_web.mp4"  playsinline autoplay muted loop></video>
                         
-                        <div class="cont_elementos d-flex flex-column justify-center align-center" @click="toggleBdsm">
-                            <div class="cont_imagen">
+                        <div class="cont_elementos d-flex flex-column justify-center align-center pa-3 pa-sm-5" @click="toggleBdsm">
+                            <div class="cont_imagen d-flex justify-center align-center">
                                 <img src="../assets/sesiones/bdsm.svg" alt="">
                             </div>
                             <p class="text-center enlace">
@@ -248,11 +263,18 @@
                         <h1 class="titulo">BDSM</h1>
 
                         <p class="textos">
-                            Consta de una sesión liberadora para las personas que exploran su sexualidad alternativa y suelen exponerse a sus límites físico y mental.
+                            Una sesión liberadora para personas que exploran su
+                            sexualidad tocando su limite mental y físico.
                         </p>
 
                         <p class="textos">
-                            “Todas las prácticas del BDSM, si están bien practicadas, deben cumplir con otra sigla que es la SSC que en español se traduce como Sensato, Seguro y Consensuado y esto tiene que ver con personas mayores de edad que optan por enriquecer sus sexualidad con estas otras alternativas”
+                            Mis aliados serán tu vulnerabilidad y la incertidumbre,
+                            cerrare la sesión con un masaje tántrico para armonizar
+                            tu integridad.
+                        </p>
+
+                        <p class="textos">
+                            “Todas las prácticas del BDSM son Sensato, Seguro y Consensuado"
                         </p>
 
                         <v-btn 
@@ -260,7 +282,7 @@
                             medium
                             class="boton enlace"
                         >
-                            <a class="enlace" href="http://">Agendar una cita</a>
+                            <a class="enlace" href="https://api.whatsapp.com/send?phone=5214426802582&text=Hola%20necesito%20información%20sobre%20sesión%20BDSM%20!">Agendar una cita</a>
                         </v-btn>
                     </v-container>
                 </v-card>

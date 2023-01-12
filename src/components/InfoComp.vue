@@ -2,7 +2,7 @@
     <section id="info">
         <v-container>            
             
-            <h1 class="titulo mb-5">Tu comodidad, nuestra prioridad.</h1>
+            <h1 class="titulo mb-5">Tu comodidad es mi prioridad.</h1>
             
             <v-row>
                 <v-col 

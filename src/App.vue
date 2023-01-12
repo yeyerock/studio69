@@ -13,8 +13,8 @@
   :root{
     --blanco: #ffffff;
     --azul-hueso: #F0F7F4;
-    --azul-oscuro:#3E5F8A;
-    --transparente-oscuro: #21558cb5;
+    --azul-oscuro:#606468;
+    --transparente-oscuro: #000000b5;
     --transparente-claro: #ffffffa1;
   }
 
