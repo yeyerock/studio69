@@ -2,7 +2,7 @@
     <section id="hero">
         <div class="cont_video">
             <video class="hero_vertical" src="../assets/videos/hero_studio69_vertical_full_1.mp4" playsinline autoplay muted loop></video>
-            <video class="hero_horizontal" src="../assets/videos/hero_studio69_full_1.mp4" playsinline autoplay muted loop></video>
+            <video class="hero_horizontal" src="../assets/videos/hero_horizontal.mp4" playsinline autoplay muted loop></video>
                    
         </div>      
     </section>

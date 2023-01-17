@@ -2,7 +2,7 @@
     <header class="navbar">
         <div class="logo mx-2">
 			<router-link to="/"  >
-				<img class="logo_menu "  src="../assets/internal/logo_5.png" >
+				<img class="logo_menu "  src="../assets/internal/logo_final_solotexto.png" >
 			</router-link> 
 		</div>		
 		
@@ -46,7 +46,7 @@
     }
 
     .navbar .logo .logo_menu{
-        width: 6rem;
+        width: 10rem;
         height: auto;
     }
 
@@ -73,19 +73,13 @@
 
     .enlace {
         text-decoration: none;
-        color: var(--blanco) !important;
-        text-transform: uppercase;
         padding: 0 15px;
         display: flex;
         align-items: center;
         transition: 0.4s ease all, 0s ease margin;
     }
 
-    .enlace:hover,
-    .icono:hover {
-        color: var(--azul-oscuro) !important;
-        cursor: pointer;
-    }
+  
 
     .navbar.sticky {
         position: fixed;

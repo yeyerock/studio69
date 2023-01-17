@@ -3,7 +3,7 @@
         <header class="navbar">
             <div class="logo mx-2">
                 <router-link to="/">
-                    <img class="logo_menu align-self-center"  src="../assets/internal/logo_5.png" >
+                    <img class="logo_menu align-self-center"  src="../assets/internal/logo_final_solotexto.png" >
                 </router-link> 
             </div>		
             

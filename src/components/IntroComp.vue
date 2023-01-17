@@ -5,7 +5,7 @@
         
             <v-container class="cont_elementos d-flex flex-column justify-center align-center">
                 <div class="cont_imagen">
-                    <img class="" src="../assets/internal/logo_3.png" alt="">
+                    <img class="" src="../assets/internal/logo_final_completo.png" alt="">
                 </div>
                     
                 <v-btn class="boton">
@@ -48,7 +48,7 @@
                 position: relative;
 
                 .cont_imagen{
-                    width: 50%;
+                    width: 90%;
                     height: auto;
                     margin-bottom: 5%;
 

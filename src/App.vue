@@ -15,7 +15,8 @@
     --azul-hueso: #F0F7F4;
     --azul-oscuro:#606468;
     --transparente-oscuro: #000000b5;
-    --transparente-claro: #ffffffa1;
+    --transparente-claro: #f9f21ba1;
+    --amarillo: #f3e00ef9;
   }
 
 
@@ -72,6 +73,11 @@
       font-weight: 400;
       font-style: normal;
       color: var(--azul-hueso);
+    }
+
+    .enlace:hover,
+    .icono:hover{
+      color: var(--amarillo);
     }
 
     .boton{
