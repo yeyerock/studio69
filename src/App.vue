@@ -17,6 +17,7 @@
     --transparente-oscuro: #000000b5;
     --transparente-claro: #f9f21ba1;
     --amarillo: #f3e00ef9;
+    --negro: #000;
   }
 
 
@@ -31,13 +32,14 @@
   body{
       overflow-x: hidden;
       width: 100vw;    
+     
   }
 
   #app {
 
     width: 100%;
     height: 100%;
-    background: var(--azul-blanco);
+
 
     .fondo_transparente{
       background: var(--transparente-oscuro);
@@ -58,6 +60,7 @@
       font-family: montserrat, sans-serif;
       font-weight: 300;      
       font-style: normal;
+      color: var(--azul-hueso);
     }
 
     .titulo{
@@ -65,7 +68,7 @@
       font-weight: 400;
       font-style: normal;
       font-size: 2rem;
-      color: var(--azul-oscuro);
+      color: var(--amarillo);
     }
 
     .enlace{

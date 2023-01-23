@@ -90,7 +90,8 @@
         .cont_elementos{
 
             .icono{
-                font-size: 3rem;
+                font-size: 3rem;                
+                color: var(--azul-hueso) !important;
             }
         }
     }

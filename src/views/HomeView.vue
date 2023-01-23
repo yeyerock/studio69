@@ -27,6 +27,6 @@ export default {
 
 <style>
   #home{
-    background: var(--azul-hueso);
+    background: var(--negro);
   }
 </style>

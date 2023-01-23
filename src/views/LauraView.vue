@@ -45,40 +45,51 @@
         <v-container class="cont_inferior">
             <v-row class="px-sm-12">
                 <v-col
-                    cols="10"
+                    cols="9"
                     sm="5"
                     md="5"
-                    lg="6"
+                    lg="4"
                     class="mx-auto cont_img reveal fade-right"
                 >
-                <div class="mx-auto d-flex justify-center">
-                    <img  src="../assets/laura/lau_03.jpg" alt=""/>
-                </div>
+                    <div class="mx-auto d-flex justify-center">
+                        <img  src="../assets/laura/lau_04.jpg" alt=""/>
+                    </div>
                 </v-col>
     
                 <v-col
-                    cols="10"
+                    cols="9"
                     sm="5"
                     md="5"
-                    lg="6"
+                    lg="4"
                     class="mx-auto cont_img reveal fade-left"
                 >
-                <div class="mx-auto d-flex justify-center">
-                    <img  src="../assets/laura/lau_02.jpg" /> 
-                </div>
+                    <div class="mx-auto d-flex justify-center">
+                        <img  src="../assets/laura/lau_05.jpg" /> 
+                    </div>
                 </v-col>
     
                 <v-col
-                    cols="10"
+                    cols="9"
                     sm="5"
                     md="5"
-                    lg="6"
+                    lg="4"
                     class="mx-auto cont_img reveal fade-right"
                 >
-                <div class="mx-auto d-flex justify-center">
-                    <img  src="../assets/laura/lau_01.jpg" />  
-                </div>  
+                    <div class="mx-auto d-flex justify-center">
+                        <img  src="../assets/laura/lau_06.jpg" />  
+                    </div>  
                 </v-col>
+                <v-col
+                cols="9"
+                sm="5"
+                md="5"
+                lg="4"
+                class="mx-auto cont_img reveal fade-left"
+            >
+                <div class="mx-auto d-flex justify-center">
+                    <img  src="../assets/laura/lau_07.jpg" />  
+                </div>  
+            </v-col>
             </v-row>
             
         </v-container>
@@ -90,10 +101,10 @@
 
     #laura{
         width: 100%;
-        background: var(--blanco);
+        background: var(--negro);
 
         .cont_superior{
-            background: var(--azul-hueso);
+            background: var(--azul-oscuro);
             padding-top: 80px;
             
         }
@@ -121,6 +132,10 @@
 
             .cont_img:nth-child(3) img{
                 rotate: -15deg;
+            }
+
+            .cont_img:nth-child(4) img{
+                rotate: 15deg;
             }
         }            
         
