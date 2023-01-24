@@ -27,7 +27,7 @@
 
         <v-container class="cont_superior px-12">   
             <h1 class="titulo mb-5">
-                Hola, soy Laura Cuen
+                Bienvenido!
             </h1>
 
             <v-row class="justify-end">
@@ -36,7 +36,22 @@
                     class=""
                 >
                     <p class="textos text-justify">
-                        Soy una persona espiritual en constante aprendizaje de múltiples materias, como la metafísica, holística, escénica (danza-teatro), músicoterapía, vivenciando mis propios y distintos caminos de sanación, liberación, el bello arte del perdón, formando mi criterio a base de mis propias experiencias para mi desarrollo personal, tanto en terapias tradicionales y muchas otras alternativas. 
+                        Mi nombre es Laura, directora y masajista en Studio Tántrico. Soy una masajista apasionada, sensual, erótica, extrema y muy espiritual.
+                    </p>
+
+                    <p class="textos text-justify">
+                        Mi trayectoria profesional me permite guiarte por medio de mis manos hacia un estado donde puedas conectar, equilibrar y liberar a tu ser interior a través de diferentes tipos de sesiones de masaje, sin tabúes ni prejuicios. 
+                    </p>
+
+                    <p class="textos text-justify">
+                        Desarrollo Profesional Académico: 
+                        <ul>
+                            <li>Lic. Psicología </li>
+                            <li>Diplomado en el Arte del Masaje y Bienestar </li>
+                            <li>Diplomado en Artes y Técnicas Tántricas</li>
+                            <li>Diplomado en Sexología </li>
+                            <li>Curso en Sexualidad y Alquimia</li>
+                        </ul>
                     </p>
                 </v-col>
             </v-row>
